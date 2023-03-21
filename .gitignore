@@ -6,6 +6,8 @@ npm-debug.log
 yarn-error.log
 
 node_modules/
+/.phpunit.cache
+/node_modules
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -36,7 +38,9 @@ storage/*.key
 composer.phar
 vendor/
 composer.lock
+# vite
 
+/public/build
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
